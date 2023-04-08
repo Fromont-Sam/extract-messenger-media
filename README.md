@@ -11,24 +11,17 @@ I welcome your feedback and suggestions for future updates to the script.
 
 ## How does it works ?
 
-### Step 1 : Download Facebook Personnal Data
-To run this scrip you'll need first to ask a copy of your personnal data to Facebook.
-You can do this in Settings -> Your Facebook Information -> Download your information.
-You'll need to download in JSON
-
-### Step 2 : Extract the data into a single folder
-Once the Facebook data files are available, you can download them and extract their content into the same output folder.
-You should have in this folder a subfolder called **'/messages/'**
-You can copy this subfolder into the root of this project
-
-### Step 3 : Run the script
-Now that you have all the data related to your Messsenger messages, you can run the script.
-(Check before that you have correctly installed all the libs necessary for this script)
-
- - Processed conversation will be copied in the '/done' folder
- - Processed media with updated date metadat will be generated into the '/output' folder
-	 - You'll have a separate subfolder for all kind of medias : ["photos", "videos", "gifs"]
- - If in any case some conversation generated errors you'll find them into the '/error' folder
+1.  To get started, you'll need to request a copy of your personal data from Facebook. Go to the Facebook Privacy Center and follow the instructions to download a copy of your data in the JSON format.
+    
+2.  Once you have downloaded the data, extract all the zip files into a single folder.
+    
+3.  Next, you'll need to download the Python script. You can either clone the project from Github or download the latest version ZIP file of the release. For this tutorial, we'll be using the exe file.
+    
+4.  Once you have downloaded the script, copy the "messages" folder from your extracted Facebook data and place it at the same level as the main executable file.
+    
+5.  Now you're ready to run the script. Double-click on the executable and wait for the script to complete. This may take some time depending on the amount of data you have.
+    
+6.  Once the script has finished running, you should see a "done" folder that contains all the processed conversations, an "output" folder that contains all the media files with their creation date metadata edited, and an "error" folder in case the script encountered any issues with a conversation.
 
 ## Presentation
 [![YouTube Video](https://i.imgur.com/3ACqlg1.png)](https://www.youtube.com/watch?v=DplYiPPI7TQ)
