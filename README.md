@@ -1,7 +1,13 @@
 
 # Extract Messenger Data
 
-Python script that extract photos, videos and gif from Messenger and edit their creation date metadata with the good one
+This script is designed to help you manage and organize your Messenger media files by allowing you to easily extract them from Messenger and set their creation dates to the correct values.
+
+With this script, you can extract all photos, videos, and gifs from your Messenger conversations and save them to your local drive. It also edit their creation date metadata to ensure that they are correctly sorted and displayed in your photo library. This feature is particularly useful if you have transferred your Messenger media to a new device or have lost the original creation date information.
+
+The script is easy to use and comes with detailed documentation to help you get started. You can customize the script to extract only specific types of media files or to edit only the creation dates of files that meet certain criteria. The script also includes error handling to ensure that your files are not accidentally deleted or overwritten.
+
+I welcome your feedback and suggestions for future updates to the script.
 
 ## How does it works ?
 
