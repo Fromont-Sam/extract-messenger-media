@@ -31,7 +31,7 @@ def move_to_output(old_path, media_type, title, creation_timestamp):
     title = re.sub(r'[<>:"/\\|?*]', '', title)
     title = title.strip()
     # Some conversation can have a complete not printable title
-    if len(title.strip()) == 0:
+    if len(title) == 0:
         title = "unknown"
     new_file_name = title + "_" + creation_date_str + "_" + str(uuid.uuid4()) + file_extension
     # Move the new file
